@@ -1,0 +1,265 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:   hwb(260 2% 62%)   ;
+    overflow: hidden;
+}
+
+li.nav-item {
+    float: left;
+}
+
+li.nav-item a {
+    display: flex;
+    justify-content:left;
+    color: white;
+    text-align:left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+li.nav-item a:hover {
+    background-color: #780884e0;
+}
+
+/* button1 */
+.button1{
+    background-color: rgb(222, 158, 8);
+    color: white;
+    width: 50px;
+    height: 20px;
+    border-radius: 45%;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    border: 1px solid black;
+    margin-left: 600px;    
+
+}
+.button1:hover{
+    border: 1.5px solid rgb(255, 0, 81);
+}
+
+
+
+/* navbar */
+.navbar {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+
+}
+
+/* box2 */
+.product1{
+  height: 600px;
+  
+  background-image: url("photo1.jpg");
+  background-size: cover;
+  align-items: flex-end;
+  justify-content: center;
+  background-color: azure;
+
+  
+}  
+   
+
+
+
+    /* search-icon */
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-size: 1.2rem;
+    color: #23e126;
+    margin-top: 15px;
+    margin-bottom:8px ;
+    margin-left: 70px;
+
+
+  
+}
+
+
+h1{
+    color:hwb(343 11% 13%);
+    margin-left: 2%;
+    
+}
+.recipe{
+    color: #0a87a6;
+}
+h3{
+    color:
+    rgb(183, 242, 243);
+    margin-left: 2%;
+}
+p{
+    margin-left: 1%;
+   
+    
+}
+.order-button{
+    height: 30px;
+    width: 80px;
+    margin-left: 3%;
+    background-color:hwb(240 5% 28%);
+    color: white;
+    
+}
+
+
+
+
+
+
+
+.dishes-section{
+    color:#d30b4e;
+    
+}
+.hero-section{
+    
+    background-color:   hwb(260 2% 62%)   ;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.heading{
+   text-align: center;
+   font-weight: bold;
+
+}
+/* shop section */
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly ;
+    background-color: #d9e9e4;
+
+}
+
+
+
+.box{
+
+    
+    height: 400px;
+    width: 23%;
+    background-color: azure;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    
+}
+
+.box-image{
+    height: 300px;
+    background-size: cover;
+    background-repeat: none repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right:1rem ;
+}
+
+.box-content p{
+    color: rgb(133, 10, 205);
+    margin-bottom: 5px;
+}
+
+.box-content button{
+    background-color:hwb(240 5% 28%);  
+    color: white;
+    align-items: center;
+    margin-left: 1.5rem.;
+
+
+}
+.box-content button:hover{
+  border: 2px solid black;  
+
+}
+.footer{
+    margin-top: 15px;
+}
+
+
+
+.foot-panel1{
+    background-color: hwb(260 2% 62%);
+    color: white;
+
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+
+}
+.foot-panel2{
+
+    background-color: #0a87a6;
+    color:white;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+ul{
+    margin-top: 15px;
+
+}
+
+ul a{
+   
+    
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 8px;
+    color: #dddd;
+
+
+}
+.foot-panel4{
+    background-color:#0a87a6;
+    border-top: 2px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo{
+    background-image: url("Food_logo_uk.png");
+    background-size: cover;
+    height: 60px;
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.foot-panel5{
+    background-color:   hwb(260 2% 62%)  ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
