@@ -22,9 +22,9 @@ li.nav-item a {
     justify-content:left;
     color: white;
     text-align:left;
-    padding: 14px 16px;
+    padding: 8px 15px;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 11px;
 }
 
 li.nav-item a:hover {
